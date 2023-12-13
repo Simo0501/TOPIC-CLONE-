@@ -323,6 +323,7 @@ body {
   flex-grow: 1;
   margin: 0 0.5rem;
   border: none;
+  font-size: large;
 }
 
 .search-input:focus {
@@ -336,12 +337,21 @@ body {
   border: none;
   color: white;
   font-weight: bold;
+  font-size: large;
 }
-.col-8 h1 {
+.col-10 h1{
   text-align: center;
-  color: white;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-top: 3rem;
+  color:#FFFFFF;
+}
+.col-10 h2{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  color: #13547A;
 }
 .col-8 h2 {
   text-align: center;
