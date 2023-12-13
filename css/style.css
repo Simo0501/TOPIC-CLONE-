@@ -12,7 +12,7 @@
 .justify-center{
   justify-content: center;
 }
-.align-center {
+.align-center{
   align-items: center;
 }
 .justify-end {
@@ -39,7 +39,7 @@ body {
 }
 .container-wrapper {
   padding: 2% 10%;
-  height: 600px;
+  height: 500px;
   background-color:#428A9B;
 }
 .header{
@@ -341,11 +341,25 @@ body {
   .row .col .search{
     width: 12rem;
   }
-  
 }
 @media screen and (max-width: 600px) {
   .col .search input{
     display: none;
   }
-  
+}
+.blu{
+  height: 300px;
+  background-color: #80D0C7;
+}
+.row-blu{
+  margin-top: 3rem;
+}
+.col-title h2{
+  padding: 1rem;
+}
+.row-blu .col-title{
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  background-color: #FFFFFF;
 }
