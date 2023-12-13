@@ -67,36 +67,6 @@ body {
   color: bisque;
   font-size: 1.5rem;
 }
-
-@media screen and ( max-width: 780px ) {
-  .col .fa-bars{
-    display: block;
-  }
-}
-@media screen and ( max-width: 1024px ) {
-  .header-list-item a,
-  .header-list-item .fa-angle-down{
-    font-size: 0.9rem;
-  }
-}
-@media screen and ( max-width: 990px ) {
-  .header-list-item a,
-  .header-list-item .fa-angle-down{
-    font-size: 0.8rem;
-  }
-}
-@media screen and ( max-width: 860px ) {
-  .header-list-item a,
-  .header-list-item .fa-angle-down{
-    font-size: 0.7rem;
-  }
-}
-@media screen and ( max-width: 780px ) {
-  .header-list-item a,
-  .header-list-item .fa-angle-down{
-    display: none;
-  }
-}
 .col .fa-user{
   font-size: 1.3rem;
   border: 1px solid white;
@@ -166,10 +136,14 @@ body {
 .col-12 {
   width: calc(100% / 12 * 12);
 }
+.display-sm-block{
+  display: block;
+}
 @media screen and ( min-width: 550px ) {
-  .display-sm-block {
+  .display-sm-block{
     display: block;
   }
+}
   .display-sm-none {
     display: none;
   }
