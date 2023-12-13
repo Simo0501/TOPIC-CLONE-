@@ -61,15 +61,16 @@ body {
 .header-list-item .fa-angle-down{
   color: bisque;
 }
+.col .fa-bars{
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  color: bisque;
+  font-size: 1.5rem;
+
+}
 @media screen and ( max-width: 780px ) {
   .col .fa-bars{
     display: block;
-  }
-}
-@media screen and ( max-width: 1024px ) {
-  .header-list-item a,
-  .header-list-item .fa-angle-down{
-    font-size: 0.9rem;
   }
 }
 @media screen and ( max-width: 780px ) {
